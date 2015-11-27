@@ -1,7 +1,7 @@
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
 	"id": "https://iptc.org/std/IKOS/IKOS-schema-0.1.json",
-	"title": "IPTC Knowledge Organisation System - JSON -- DRAFT v 0.1",
+	"title": "IPTC Knowledge Organisation System - JSON -- DRAFT v0.1",
 	"description": "Describes a scheme (Controlled Vocabulary, taxonomy) as a whole and each of its concepts -- copyright 2015 IPTC - International Press Telecommunications Council - www.iptc.org - This document is published under the Creative Commons Attribution 4.0 license, see  http://creativecommons.org/licenses/by/4.0/",
 	"type": "object",
 	"properties": {
