@@ -1,5 +1,5 @@
 # ikos-dev
-About development of the IPTC Knowledge Organisation System - IKOS
+About development around the IPTC Knowledge Organisation System - IKOS
 
 IPTC maintains many Controlled Vocabularies for
 - categorization of news
