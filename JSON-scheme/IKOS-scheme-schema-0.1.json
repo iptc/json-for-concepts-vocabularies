@@ -1,0 +1,80 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "https://iptc.org/std/IKOS/IKOS-schema-0.1.json",
+	"title": "IPTC Knowledge Organisation System - JSON -- DRAFT v 0.1",
+	"description": "Describes a scheme (Controlled Vocabulary, taxonomy) as a whole and each of its concepts -- copyright 2015 IPTC - International Press Telecommunications Council - www.iptc.org - This document is published under the Creative Commons Attribution 4.0 license, see  http://creativecommons.org/licenses/by/4.0/",
+	"type": "object",
+	"properties": {
+		"uri": {
+			"$ref": "#/definitions/URI"
+		},
+		"type": {
+			"type": "array",
+			"items": {
+				"$ref": "#/definitions/URI"
+			}
+		},
+		"prefAlias": {
+			"type": "string"
+		},
+		"prefLabel": {
+			"$ref": "#/definitions/AltLanguages"
+		},
+		"definition": {
+			"$ref": "#/definitions/AltLanguages"
+		},
+		"changeNote": {
+			"$ref": "#/definitions/AltLanguages"
+		},
+		"editorialNote": {
+			"$ref": "#/definitions/AltLanguages"
+		},
+		"authority": {
+			"$ref": "#/definitions/URI"
+		},
+		"licenseLink": {
+			"$ref": "#/definitions/URI"
+		},
+		"availLang": {
+			"type": "array",
+			"items": {
+				"type": "string",
+				"pattern": "^(((([A-Za-z]{2,3}(-([A-Za-z]{3}(-[A-Za-z]{3}){0,2}))?)|[A-Za-z]{4}|[A-Za-z]{5,8})(-([A-Za-z]{4}))?(-([A-Za-z]{2}|[0-9]{3}))?(-([A-Za-z0-9]{5,8}|[0-9][A-Za-z0-9]{3}))*(-([0-9A-WY-Za-wy-z](-[A-Za-z0-9]{2,8})+))*(-(x(-[A-Za-z0-9]{1,8})+))?)|(x(-[A-Za-z0-9]{1,8})+))$"
+			}
+		},
+		"hasTopConcept": {
+			"type": "array",
+			"items": {
+				"$ref": "#/definitions/URI"
+			}
+		},
+		"conceptSet": {
+			"type": "array",
+			"items": {
+				"$ref": "IKOS-concept-schema-0.1.json#"
+			}
+		}
+	},
+	"required": [
+		"uri",
+		"type"
+	],
+	"additionalProperties": false,
+	"definitions": {
+		"URI": {
+			"type": "string",
+			"format": "uri"
+		},
+		"AltLanguages": {
+			"type": "object",
+			"patternProperties": {
+				"^(((([A-Za-z]{2,3}(-([A-Za-z]{3}(-[A-Za-z]{3}){0,2}))?)|[A-Za-z]{4}|[A-Za-z]{5,8})(-([A-Za-z]{4}))?(-([A-Za-z]{2}|[0-9]{3}))?(-([A-Za-z0-9]{5,8}|[0-9][A-Za-z0-9]{3}))*(-([0-9A-WY-Za-wy-z](-[A-Za-z0-9]{2,8})+))*(-(x(-[A-Za-z0-9]{1,8})+))?)|(x(-[A-Za-z0-9]{1,8})+))$": {
+					"title": "Language tagged text",
+					"description": "Property name is a BCP47 language tag, property value a text using this language",
+					"type": "string"
+				}
+			},
+			"additionalProperties": false
+		}
+	}
+}
