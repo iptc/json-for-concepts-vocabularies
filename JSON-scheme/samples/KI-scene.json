@@ -1,0 +1,431 @@
+{
+	"uri": "http://cv.iptc.org/newscodes/scene/",
+	"type": [
+		"http://www.w3.org/2004/02/skos/core#ConceptScheme"
+	],
+	"prefAlias": "scn",
+	"authority": "http://www.iptc.org",
+	"prefLabel": {
+		"en-GB": "Scene",
+		"de": "Bildszenerie"
+	},
+	"definition": {
+		"en-GB": "Indicates a type of scene covered by an item.",
+		"de": "Zeigt die Art der Szenerie eines Bildes an."
+	},
+	"hasTopConcept": [
+		"http://cv.iptc.org/newscodes/scene/010100", "http://cv.iptc.org/newscodes/scene/010200", "http://cv.iptc.org/newscodes/scene/010300", "http://cv.iptc.org/newscodes/scene/010400", "http://cv.iptc.org/newscodes/scene/010500", "http://cv.iptc.org/newscodes/scene/010600", "http://cv.iptc.org/newscodes/scene/010700", "http://cv.iptc.org/newscodes/scene/010800", "http://cv.iptc.org/newscodes/scene/010900", "http://cv.iptc.org/newscodes/scene/011000", "http://cv.iptc.org/newscodes/scene/011100", "http://cv.iptc.org/newscodes/scene/011200", "http://cv.iptc.org/newscodes/scene/011300", "http://cv.iptc.org/newscodes/scene/011400", "http://cv.iptc.org/newscodes/scene/011500", "http://cv.iptc.org/newscodes/scene/011600", "http://cv.iptc.org/newscodes/scene/011700", "http://cv.iptc.org/newscodes/scene/011800", "http://cv.iptc.org/newscodes/scene/011900", "http://cv.iptc.org/newscodes/scene/012000", "http://cv.iptc.org/newscodes/scene/012100", "http://cv.iptc.org/newscodes/scene/012200", "http://cv.iptc.org/newscodes/scene/012300", "http://cv.iptc.org/newscodes/scene/012400"
+	],
+	"conceptSet": [
+		{
+			"uri": "http://cv.iptc.org/newscodes/scene/010100",
+			"qcode": "scn:010100",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"retired": "2014-12-31T01:00:00+00:00",
+			"prefLabel": {
+				"en-GB": "headshot",
+				"de": "Portrait"
+			},
+			"definition": {
+				"en-GB": "A head only view of a person (or animal/s) or persons as in a montage. ",
+				"de": "Ansicht nur des Kopfes einer oder mehrerer Personen oder von einem oder mehreren Tieren."
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/010200",
+			"qcode": "scn:010200",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"en-GB": "half-length",
+				"de": "Halbfigur"
+			},
+			"definition": {
+				"en-GB": "A torso and head view of a person or persons. ",
+				"de": "Ansicht des Oberkörpers einer oder mehrerer Personen"
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/010300",
+			"qcode": "scn:010300",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"en-GB": "full-length",
+				"de": "Ganzfigur"
+			},
+			"definition": {
+				"en-GB": "A view from head to toe of a person or persons ",
+				"de": "Ansicht der vollständigen Figur einer oder mehrerer Personen"
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/010400",
+			"qcode": "scn:010400",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"en-GB": "profile",
+				"de": "Profilansicht"
+			},
+			"definition": {
+				"en-GB": "A view of a person from the side ",
+				"de": "Ansicht einer oder mehrerer Personen von der Seite"
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/010500",
+			"qcode": "scn:010500",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"de": "Rückansicht",
+				"en-GB": "rear view"
+			},
+			"definition": {
+				"de": "Ansicht einer oder mehrerer Personen von hinten",
+				"en-GB": "A view of a person or persons from the rear. "
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/010600",
+			"qcode": "scn:010600",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"de": "Einzelperson",
+				"en-GB": "single"
+			},
+			"definition": {
+				"de": "Ansicht einer einzelnen Person",
+				"en-GB": "A view of only one person, object or animal. "
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/010700",
+			"qcode": "scn:010700",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"en-GB": "couple",
+				"de": "Paar"
+			},
+			"definition": {
+				"de": "Ansicht von zwei Personen zwischen denen eine persönliche Beziehung besteht, z.B. sind sie verlobt, verheiratet oder einer sonstigen Liebesbeziehung",
+				"en-GB": "A view of two people who are in a personal relationship, for example engaged, married or in a romantic partnership. "
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/010800",
+			"qcode": "scn:010800",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"en-GB": "two",
+				"de": "Zwei Personen"
+			},
+			"definition": {
+				"en-GB": "A view of two people ",
+				"de": "Ansicht von zwei Personen"
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/010900",
+			"qcode": "scn:010900",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"en-GB": "group",
+				"de": "Gruppe"
+			},
+			"definition": {
+				"de": "Ansicht von mehr als zwei Personen",
+				"en-GB": "A view of more than two people "
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/011000",
+			"qcode": "scn:011000",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"de": "Gesamtansicht",
+				"en-GB": "general view"
+			},
+			"definition": {
+				"en-GB": "An overall view of the subject and its surrounds ",
+				"de": "Ansicht eines Subjekts und von dessen Umgebung"
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/011100",
+			"qcode": "scn:011100",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"de": "Panorama",
+				"en-GB": "panoramic view"
+			},
+			"definition": {
+				"en-GB": "A panoramic or wide angle view of a subject and its surrounds ",
+				"de": "Ein Panoramaansicht oder Weitwinkelansicht eines Subjekts und von dessen Umgebung"
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/011200",
+			"qcode": "scn:011200",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"en-GB": "aerial view",
+				"de": "Luftbild"
+			},
+			"definition": {
+				"de": "Eine Ansicht aus der Höhe",
+				"en-GB": "A view taken from above "
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/011300",
+			"qcode": "scn:011300",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"en-GB": "under-water",
+				"de": "Unter Wasser"
+			},
+			"definition": {
+				"en-GB": "A photo taken under water ",
+				"de": "Ein unter Wasser aufgenommenes Bild"
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/011400",
+			"qcode": "scn:011400",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"en-GB": "night scene",
+				"de": "Nachtaufnahme"
+			},
+			"definition": {
+				"de": "Ein Bild das während der Dunkelheit aufgenommen wurde",
+				"en-GB": "A photo taken during darkness "
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/011500",
+			"qcode": "scn:011500",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"de": "Satellitenansicht",
+				"en-GB": "satellite"
+			},
+			"definition": {
+				"en-GB": "A photo taken from a satellite in orbit ",
+				"de": "Ein Bild das aus einer Satellitenumlaufbahn aufgenommen wurde"
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/011600",
+			"qcode": "scn:011600",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"de": "Außenansicht",
+				"en-GB": "exterior view"
+			},
+			"definition": {
+				"en-GB": "A photo that shows the exterior of a building or other object ",
+				"de": "Ein Bild das außerhalb  eines Gebäudes oder ähnlichen Objekts aufgenommen wurde."
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/011700",
+			"qcode": "scn:011700",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"en-GB": "interior view",
+				"de": "Innenansicht"
+			},
+			"definition": {
+				"de": "Ein Bild das innerhalb eines Gebäudes oder ähnlichen Objekts aufgenommen wurde",
+				"en-GB": "A scene or view of the interior of a building or other object "
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/011800",
+			"qcode": "scn:011800",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"en-GB": "close-up",
+				"de": "Nahaufnahme"
+			},
+			"definition": {
+				"de": "Eine Ansicht von einer Person oder einem Objekt das aus nächster Nähe um Details oder Emotionen hervorzustreichen. Auch Makro-Fotografie.",
+				"en-GB": "A view of, or part of a person/object taken at close range in order to emphasize detail or accentuate mood. Macro photography. "
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/011900",
+			"qcode": "scn:011900",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"de": "Aktionsaufnahme",
+				"en-GB": "action"
+			},
+			"definition": {
+				"en-GB": "Subject in motion such as children jumping, horse running ",
+				"de": "Subjekt in Bewegung, wie hüpfendes Kind, laufendes Pferd usw."
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/012000",
+			"qcode": "scn:012000",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"en-GB": "performing",
+				"de": "Beim Auftritt"
+			},
+			"definition": {
+				"en-GB": "Subject or subjects on a stage performing to an audience ",
+				"de": "Subjekt(e) auf einer Bühne, während sie vor Publikum auftreten"
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/012100",
+			"qcode": "scn:012100",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"en-GB": "posing",
+				"de": "Posieren"
+			},
+			"definition": {
+				"de": "Subjekt(e) die eine besondere Körperposition einnehmen, wie ein *Victory*-Zeichen",
+				"en-GB": "Subject or subjects posing such as a *victory* pose or other stance that symbolizes leadership. "
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/012200",
+			"qcode": "scn:012200",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"en-GB": "symbolic",
+				"de": "Symbol"
+			},
+			"definition": {
+				"de": "Ein gestaltetes Bild das ein Ereignis symbolisiert, wie zwei Ringe für die Ehe",
+				"en-GB": "A posed picture symbolizing an event - two rings for marriage "
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/012300",
+			"qcode": "scn:012300",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"de": "Ausgefallenes",
+				"en-GB": "off-beat"
+			},
+			"definition": {
+				"de": "Ein attraktives, vielleicht auch lustiges Bild aus dem Alltag - Hund mit Sonnenbrille, Leute die in einem Brunnen baden",
+				"en-GB": "An attractive, perhaps fun picture of everyday events - dog with sunglasses, people cooling off in the fountain "
+			}
+		}, {
+			"uri": "http://cv.iptc.org/newscodes/scene/012400",
+			"qcode": "scn:012400",
+			"type": [
+				"http://www.w3.org/2004/02/skos/core#Concept"
+			],
+			"inScheme": "http://cv.iptc.org/newscodes/scene/",
+			"created": "2008-01-01T01:00:00+00:00",
+			"modified": "2010-12-15T22:14:09+00:00",
+			"prefLabel": {
+				"en-GB": "movie scene",
+				"de": "Filmszene"
+			},
+			"definition": {
+				"de": "Bilder wie während der Aufnahmen zu einem Film oder einer Fernsehproduktion gemacht wurden",
+				"en-GB": "Photos taken during the shooting of a movie or TV production. "
+			}
+		}
+	]
+}

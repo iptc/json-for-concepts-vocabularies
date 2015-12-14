@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- G2 KI template for G2CVmanagement as of 2014-11-03 (updated) -->
+<knowledgeItem standard="NewsML-G2" standardversion="2.18" conformance="power" guid="urn:newsml:iptc.org:20080229:srcncdki-scn-TS201411031527025" version="1" xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:nar="http://iptc.org/std/nar/2006-10-01/">
+  <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml" />
+  <rightsInfo>
+    <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
+      <name>IPTC - International Press Telecommunications Council</name>
+    </copyrightHolder>
+    <copyrightNotice>Copyright 2014, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
+    <usageTerms href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons Attribution (CC BY) 4.0 license applies to all NewsCodes</usageTerms>
+  </rightsInfo>
+  <itemMeta>
+    <itemClass qcode="cinat:scheme" />
+    <provider uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
+      <name>IPTC</name>
+    </provider>
+    <versionCreated>2014-11-03T15:27:02+00:00</versionCreated>
+    <firstCreated>2008-02-29T12:00:00+00:00</firstCreated>
+    <pubStatus qcode="stat:usable" />
+    <generator versioninfo="0.1 [2014-09-05.1]">G2CVsandbox</generator>
+  </itemMeta>
+  <contentMeta>
+    <contentCreated>2014-11-03T15:27:02+00:00</contentCreated>
+    <description xml:lang="en-GB">Indicates a type of scene covered by an item.</description>
+    <description xml:lang="en-GB">Scene</description>
+  </contentMeta>
+  <partMeta partid="pi0" contentrefs="scn010100 scn010200 scn010300 scn010400 scn010500 scn010600 scn010700 scn010800 scn010900 scn011000 scn011100 scn011200 scn011300 scn011400 scn011500 scn011600 scn011700 scn011800 scn011900 scn012000 scn012100 scn012200 scn012300 scn012400">
+    <contentModified>2010-12-15T22:14:09+00:00</contentModified>
+  </partMeta>
+  <conceptSet>
+    <concept id="scn010100" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:010100" created="2008-01-01T01:00:00+00:00" retired="2014-12-31T01:00:00+00:00"/>
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="en-GB">headshot</name>
+      <name xml:lang="de">Portrait</name>
+      <definition xml:lang="en-GB">A head only view of a person (or animal/s) or persons as in a montage. </definition>
+      <definition xml:lang="de">Ansicht nur des Kopfes einer oder mehrerer Personen oder von einem oder mehreren Tieren.</definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn010200" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:010200" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="en-GB">half-length</name>
+      <name xml:lang="de">Halbfigur</name>
+      <definition xml:lang="en-GB">A torso and head view of a person or persons. </definition>
+      <definition xml:lang="de">Ansicht des Oberkörpers einer oder mehrerer Personen</definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn010300" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:010300" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="en-GB">full-length</name>
+      <name xml:lang="de">Ganzfigur</name>
+      <definition xml:lang="en-GB">A view from head to toe of a person or persons </definition>
+      <definition xml:lang="de">Ansicht der vollständigen Figur einer oder mehrerer Personen</definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn010400" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:010400" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="en-GB">profile</name>
+      <name xml:lang="de">Profilansicht</name>
+      <definition xml:lang="en-GB">A view of a person from the side </definition>
+      <definition xml:lang="de">Ansicht einer oder mehrerer Personen von der Seite</definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn010500" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:010500" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="de">Rückansicht</name>
+      <name xml:lang="en-GB">rear view</name>
+      <definition xml:lang="de">Ansicht einer oder mehrerer Personen von hinten</definition>
+      <definition xml:lang="en-GB">A view of a person or persons from the rear. </definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn010600" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:010600" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="de">Einzelperson</name>
+      <name xml:lang="en-GB">single</name>
+      <definition xml:lang="de">Ansicht einer einzelnen Person</definition>
+      <definition xml:lang="en-GB">A view of only one person, object or animal. </definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn010700" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:010700" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="en-GB">couple</name>
+      <name xml:lang="de">Paar</name>
+      <definition xml:lang="de">Ansicht von zwei Personen zwischen denen eine persönliche Beziehung besteht, z.B. sind sie verlobt, verheiratet oder einer sonstigen Liebesbeziehung</definition>
+      <definition xml:lang="en-GB">A view of two people who are in a personal relationship, for example engaged, married or in a romantic partnership. </definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn010800" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:010800" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="en-GB">two</name>
+      <name xml:lang="de">Zwei Personen</name>
+      <definition xml:lang="en-GB">A view of two people </definition>
+      <definition xml:lang="de">Ansicht von zwei Personen</definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn010900" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:010900" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="en-GB">group</name>
+      <name xml:lang="de">Gruppe</name>
+      <definition xml:lang="de">Ansicht von mehr als zwei Personen</definition>
+      <definition xml:lang="en-GB">A view of more than two people </definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn011000" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:011000" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="de">Gesamtansicht</name>
+      <name xml:lang="en-GB">general view</name>
+      <definition xml:lang="en-GB">An overall view of the subject and its surrounds </definition>
+      <definition xml:lang="de">Ansicht eines Subjekts und von dessen Umgebung</definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn011100" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:011100" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="de">Panorama</name>
+      <name xml:lang="en-GB">panoramic view</name>
+      <definition xml:lang="en-GB">A panoramic or wide angle view of a subject and its surrounds </definition>
+      <definition xml:lang="de">Ein Panoramaansicht oder Weitwinkelansicht eines Subjekts und von dessen Umgebung</definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn011200" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:011200" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="en-GB">aerial view</name>
+      <name xml:lang="de">Luftbild</name>
+      <definition xml:lang="de">Eine Ansicht aus der Höhe</definition>
+      <definition xml:lang="en-GB">A view taken from above </definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn011300" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:011300" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="en-GB">under-water</name>
+      <name xml:lang="de">Unter Wasser</name>
+      <definition xml:lang="en-GB">A photo taken under water </definition>
+      <definition xml:lang="de">Ein unter Wasser aufgenommenes Bild</definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn011400" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:011400" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="en-GB">night scene</name>
+      <name xml:lang="de">Nachtaufnahme</name>
+      <definition xml:lang="de">Ein Bild das während der Dunkelheit aufgenommen wurde</definition>
+      <definition xml:lang="en-GB">A photo taken during darkness </definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn011500" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:011500" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="de">Satellitenansicht</name>
+      <name xml:lang="en-GB">satellite</name>
+      <definition xml:lang="en-GB">A photo taken from a satellite in orbit </definition>
+      <definition xml:lang="de">Ein Bild das aus einer Satellitenumlaufbahn aufgenommen wurde</definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn011600" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:011600" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="de">Außenansicht</name>
+      <name xml:lang="en-GB">exterior view</name>
+      <definition xml:lang="en-GB">A photo that shows the exterior of a building or other object </definition>
+      <definition xml:lang="de">Ein Bild das außerhalb  eines Gebäudes oder ähnlichen Objekts aufgenommen wurde.</definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn011700" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:011700" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="en-GB">interior view</name>
+      <name xml:lang="de">Innenansicht</name>
+      <definition xml:lang="de">Ein Bild das innerhalb eines Gebäudes oder ähnlichen Objekts aufgenommen wurde</definition>
+      <definition xml:lang="en-GB">A scene or view of the interior of a building or other object </definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn011800" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:011800" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="en-GB">close-up</name>
+      <name xml:lang="de">Nahaufnahme</name>
+      <definition xml:lang="de">Eine Ansicht von einer Person oder einem Objekt das aus nächster Nähe um Details oder Emotionen hervorzustreichen. Auch Makro-Fotografie.</definition>
+      <definition xml:lang="en-GB">A view of, or part of a person/object taken at close range in order to emphasize detail or accentuate mood. Macro photography. </definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn011900" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:011900" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="de">Aktionsaufnahme</name>
+      <name xml:lang="en-GB">action</name>
+      <definition xml:lang="en-GB">Subject in motion such as children jumping, horse running </definition>
+      <definition xml:lang="de">Subjekt in Bewegung, wie hüpfendes Kind, laufendes Pferd usw.</definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn012000" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:012000" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="en-GB">performing</name>
+      <name xml:lang="de">Beim Auftritt</name>
+      <definition xml:lang="en-GB">Subject or subjects on a stage performing to an audience </definition>
+      <definition xml:lang="de">Subjekt(e) auf einer Bühne, während sie vor Publikum auftreten</definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn012100" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:012100" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="en-GB">posing</name>
+      <name xml:lang="de">Posieren</name>
+      <definition xml:lang="de">Subjekt(e) die eine besondere Körperposition einnehmen, wie ein "Victory"-Zeichen</definition>
+      <definition xml:lang="en-GB">Subject or subjects posing such as a "victory" pose or other stance that symbolizes leadership. </definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn012200" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:012200" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="en-GB">symbolic</name>
+      <name xml:lang="de">Symbol</name>
+      <definition xml:lang="de">Ein gestaltetes Bild das ein Ereignis symbolisiert, wie zwei Ringe für die Ehe</definition>
+      <definition xml:lang="en-GB">A posed picture symbolizing an event - two rings for marriage </definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn012300" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:012300" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="de">Ausgefallenes</name>
+      <name xml:lang="en-GB">off-beat</name>
+      <definition xml:lang="de">Ein attraktives, vielleicht auch lustiges Bild aus dem Alltag - Hund mit Sonnenbrille, Leute die in einem Brunnen baden</definition>
+      <definition xml:lang="en-GB">An attractive, perhaps fun picture of everyday events - dog with sunglasses, people cooling off in the fountain </definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+    <concept id="scn012400" modified="2010-12-15T22:14:09+00:00">
+      <conceptId qcode="scn:012400" created="2008-01-01T01:00:00+00:00" />
+      <type qcode="cpnat:abstract" />
+      <name xml:lang="en-GB">movie scene</name>
+      <name xml:lang="de">Filmszene</name>
+      <definition xml:lang="de">Bilder wie während der Aufnahmen zu einem Film oder einer Fernsehproduktion gemacht wurden</definition>
+      <definition xml:lang="en-GB">Photos taken during the shooting of a movie or TV production. </definition>
+      <related uri="http://cv.iptc.org/newscodes/scene/" rel="skos:inScheme" />
+    </concept>
+  </conceptSet>
+  <schemeMeta uri="http://cv.iptc.org/newscodes/scene/" authority="http://www.iptc.org" preferredalias="scn">
+    <definition xml:lang="en-GB">Indicates a type of scene covered by an item.</definition>
+    <definition xml:lang="de">Zeigt die Art der Szenerie eines Bildes an.</definition>
+    <name xml:lang="en-GB">Scene</name>
+    <name xml:lang="de">Bildszenerie</name>
+    <related qcode="scn:010100" rel="skos:hasTopConcept" />
+    <related qcode="scn:010200" rel="skos:hasTopConcept" />
+    <related qcode="scn:010300" rel="skos:hasTopConcept" />
+    <related qcode="scn:010400" rel="skos:hasTopConcept" />
+    <related qcode="scn:010500" rel="skos:hasTopConcept" />
+    <related qcode="scn:010600" rel="skos:hasTopConcept" />
+    <related qcode="scn:010700" rel="skos:hasTopConcept" />
+    <related qcode="scn:010800" rel="skos:hasTopConcept" />
+    <related qcode="scn:010900" rel="skos:hasTopConcept" />
+    <related qcode="scn:011000" rel="skos:hasTopConcept" />
+    <related qcode="scn:011100" rel="skos:hasTopConcept" />
+    <related qcode="scn:011200" rel="skos:hasTopConcept" />
+    <related qcode="scn:011300" rel="skos:hasTopConcept" />
+    <related qcode="scn:011400" rel="skos:hasTopConcept" />
+    <related qcode="scn:011500" rel="skos:hasTopConcept" />
+    <related qcode="scn:011600" rel="skos:hasTopConcept" />
+    <related qcode="scn:011700" rel="skos:hasTopConcept" />
+    <related qcode="scn:011800" rel="skos:hasTopConcept" />
+    <related qcode="scn:011900" rel="skos:hasTopConcept" />
+    <related qcode="scn:012000" rel="skos:hasTopConcept" />
+    <related qcode="scn:012100" rel="skos:hasTopConcept" />
+    <related qcode="scn:012200" rel="skos:hasTopConcept" />
+    <related qcode="scn:012300" rel="skos:hasTopConcept" />
+    <related qcode="scn:012400" rel="skos:hasTopConcept" />
+    <schemeMetaExtProperty rel="ikos:availLang" value="en-GB" />
+    <schemeMetaExtProperty rel="ikos:availLang" value="de" />
+  </schemeMeta>
+</knowledgeItem>
