@@ -75,7 +75,7 @@
 			"type": [
 				"http://www.w3.org/2004/02/skos/core#Concept", "http://cv.iptc.org/newscodes/cpnature/abstract"
 			],
-			"qcode": "scn:010201",
+			"qcode":  "scn:010201",
 			"created": "2015-09-09T00:00:00+00:00",
 			"modified": "2015-09-09T00:00:00+00:00",
 			"retired": "2015-09-09T23:59:59+00:00",
