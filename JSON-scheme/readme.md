@@ -12,7 +12,11 @@ For that reason IPTC has taken a few basic decisions:
 
 	- the specific formats for W3C's RDF which is the background of SKOS (RDF-XML, Turtle, JSON-LD)
 
-	- NewsML-G2 Knowledge Items and Concept Items as part of the generic IPTC XML format for news - http://www.newsml-g2.org 
+	- NewsML-G2 Knowledge Items and Concept Items as part of the generic IPTC XML format for news - http://www.newsml-g2.org
 
 	- a JSON format with only low level processing requirements - and that is this **IKOS-JSON = IPTC Knowledge Organization System JSON**
 
+For the IKOS native JSON format two JSON Schemas are available (for both are PDFs as documentation available):
+
+- IKOS-concept-schema-0.2.json as Schema of a Concepts
+- IKOS-scheme-schema-0.2.json as Schema of the Concept Scheme (equivalant to Knowledge Item)

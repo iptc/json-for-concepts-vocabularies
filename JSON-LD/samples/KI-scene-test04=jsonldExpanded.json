@@ -1,0 +1,1262 @@
+[
+  {
+    "http://cv.iptc.org/newscodes/ikos/authority": [
+      {
+        "@id": "http://www.iptc.org"
+      }
+    ],
+    "@graph": [
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [
+          {
+            "@value": "Beschreibung aktualisiert",
+            "@language": "de"
+          },
+          {
+            "@value": "Definition updated",
+            "@language": "en-gb"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Ansicht nur des Kopfes einer oder mehrerer Personen oder von einem oder mehreren Tieren.",
+            "@language": "de"
+          },
+          {
+            "@value": "A head only view of a person (or animal/s) or persons as in a montage. ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [
+          {
+            "@value": "Dann verwenden, wenn der Kopf das wesentliche Objekt im Foto ist",
+            "@language": "de"
+          },
+          {
+            "@value": "Use it only if the head is the major object of the photo",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [
+          {
+            "@value": "Anmerkung zum Portrait: abcde",
+            "@language": "de"
+          },
+          {
+            "@value": "Note on the headshot: abcde",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Portrait",
+            "@language": "de"
+          },
+          {
+            "@value": "headshot",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/010100"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Ansicht des Oberkörpers einer oder mehrerer Personen",
+            "@language": "de"
+          },
+          {
+            "@value": "A torso and head view of a person or persons. ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Halbfigur",
+            "@language": "de"
+          },
+          {
+            "@value": "half-length",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/010200"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Ansicht der vollständigen Figur einer oder mehrerer Personen",
+            "@language": "de"
+          },
+          {
+            "@value": "A view from head to toe of a person or persons ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Ganzfigur",
+            "@language": "de"
+          },
+          {
+            "@value": "full-length",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/010300"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Ansicht einer oder mehrerer Personen von der Seite",
+            "@language": "de"
+          },
+          {
+            "@value": "A view of a person from the side ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Profilansicht",
+            "@language": "de"
+          },
+          {
+            "@value": "profile",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/010400"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Ansicht einer oder mehrerer Personen von hinten",
+            "@language": "de"
+          },
+          {
+            "@value": "A view of a person or persons from the rear. ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Rückansicht",
+            "@language": "de"
+          },
+          {
+            "@value": "rear view",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/010500"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Ansicht einer einzelnen Person",
+            "@language": "de"
+          },
+          {
+            "@value": "A view of only one person, object or animal. ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Einzelperson",
+            "@language": "de"
+          },
+          {
+            "@value": "single",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/010600"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Ansicht von zwei Personen zwischen denen eine persönliche Beziehung besteht, z.B. sind sie verlobt, verheiratet oder einer sonstigen Liebesbeziehung",
+            "@language": "de"
+          },
+          {
+            "@value": "A view of two people who are in a personal relationship, for example engaged, married or in a romantic partnership. ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Paar",
+            "@language": "de"
+          },
+          {
+            "@value": "couple",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/010700"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Ansicht von zwei Personen",
+            "@language": "de"
+          },
+          {
+            "@value": "A view of two people ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Zwei Personen",
+            "@language": "de"
+          },
+          {
+            "@value": "two",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/010800"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Ansicht von mehr als zwei Personen",
+            "@language": "de"
+          },
+          {
+            "@value": "A view of more than two people ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Gruppe",
+            "@language": "de"
+          },
+          {
+            "@value": "group",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/010900"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Ansicht eines Subjekts und von dessen Umgebung",
+            "@language": "de"
+          },
+          {
+            "@value": "An overall view of the subject and its surrounds ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Gesamtansicht",
+            "@language": "de"
+          },
+          {
+            "@value": "general view",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/011000"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Ein Panoramaansicht oder Weitwinkelansicht eines Subjekts und von dessen Umgebung",
+            "@language": "de"
+          },
+          {
+            "@value": "A panoramic or wide angle view of a subject and its surrounds ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Panorama",
+            "@language": "de"
+          },
+          {
+            "@value": "panoramic view",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/011100"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Eine Ansicht aus der Höhe",
+            "@language": "de"
+          },
+          {
+            "@value": "A view taken from above ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Luftbild",
+            "@language": "de"
+          },
+          {
+            "@value": "aerial view",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/011200"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Ein unter Wasser aufgenommenes Bild",
+            "@language": "de"
+          },
+          {
+            "@value": "A photo taken under water ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Unter Wasser",
+            "@language": "de"
+          },
+          {
+            "@value": "under-water",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/011300"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Ein Bild das während der Dunkelheit aufgenommen wurde",
+            "@language": "de"
+          },
+          {
+            "@value": "A photo taken during darkness ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Nachtaufnahme",
+            "@language": "de"
+          },
+          {
+            "@value": "night scene",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/011400"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Ein Bild das aus einer Satellitenumlaufbahn aufgenommen wurde",
+            "@language": "de"
+          },
+          {
+            "@value": "A photo taken from a satellite in orbit ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Satellitenansicht",
+            "@language": "de"
+          },
+          {
+            "@value": "satellite",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/011500"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Ein Bild das außerhalb  eines Gebäudes oder ähnlichen Objekts aufgenommen wurde.",
+            "@language": "de"
+          },
+          {
+            "@value": "A photo that shows the exterior of a building or other object ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Außenansicht",
+            "@language": "de"
+          },
+          {
+            "@value": "exterior view",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/011600"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Ein Bild das innerhalb eines Gebäudes oder ähnlichen Objekts aufgenommen wurde",
+            "@language": "de"
+          },
+          {
+            "@value": "A scene or view of the interior of a building or other object ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Innenansicht",
+            "@language": "de"
+          },
+          {
+            "@value": "interior view",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/011700"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Eine Ansicht von einer Person oder einem Objekt das aus nächster Nähe um Details oder Emotionen hervorzustreichen. Auch Makro-Fotografie.",
+            "@language": "de"
+          },
+          {
+            "@value": "A view of, or part of a person/object taken at close range in order to emphasize detail or accentuate mood. Macro photography. ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Nahaufnahme",
+            "@language": "de"
+          },
+          {
+            "@value": "close-up",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/011800"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Subjekt in Bewegung, wie hüpfendes Kind, laufendes Pferd usw.",
+            "@language": "de"
+          },
+          {
+            "@value": "Subject in motion such as children jumping, horse running ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Aktionsaufnahme",
+            "@language": "de"
+          },
+          {
+            "@value": "action",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/011900"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Subjekt(e) auf einer Bühne, während sie vor Publikum auftreten",
+            "@language": "de"
+          },
+          {
+            "@value": "Subject or subjects on a stage performing to an audience ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Beim Auftritt",
+            "@language": "de"
+          },
+          {
+            "@value": "performing",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/012000"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Subjekt(e) die eine besondere Körperposition einnehmen, wie ein *Victory*-Zeichen",
+            "@language": "de"
+          },
+          {
+            "@value": "Subject or subjects posing such as a *victory* pose or other stance that symbolizes leadership. ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Posieren",
+            "@language": "de"
+          },
+          {
+            "@value": "posing",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/012100"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Ein gestaltetes Bild das ein Ereignis symbolisiert, wie zwei Ringe für die Ehe",
+            "@language": "de"
+          },
+          {
+            "@value": "A posed picture symbolizing an event - two rings for marriage ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Symbol",
+            "@language": "de"
+          },
+          {
+            "@value": "symbolic",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/012200"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Ein attraktives, vielleicht auch lustiges Bild aus dem Alltag - Hund mit Sonnenbrille, Leute die in einem Brunnen baden",
+            "@language": "de"
+          },
+          {
+            "@value": "An attractive, perhaps fun picture of everyday events - dog with sunglasses, people cooling off in the fountain ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Ausgefallenes",
+            "@language": "de"
+          },
+          {
+            "@value": "off-beat",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/012300"
+      },
+      {
+        "http://www.w3.org/2004/02/skos/core#changeNote": [],
+        "http://cv.iptc.org/newscodes/ikos/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2008-01-01T01:00:00+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+          {
+            "@value": "Bilder wie während der Aufnahmen zu einem Film oder einer Fernsehproduktion gemacht wurden",
+            "@language": "de"
+          },
+          {
+            "@value": "Photos taken during the shooting of a movie or TV production. ",
+            "@language": "en-gb"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#editorialNote": [],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+          {
+            "@id": "http://cv.iptc.org/newscodes/scene/"
+          }
+        ],
+        "http://cv.iptc.org/newscodes/ikos/modified": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2010-12-15T22:14:09+00:00"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#note": [],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Filmszene",
+            "@language": "de"
+          },
+          {
+            "@value": "movie scene",
+            "@language": "en-gb"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "@id": "http://cv.iptc.org/newscodes/scene/012400"
+      }
+    ],
+    "http://purl.org/dc/terms/copyrightHolder": [
+      {
+        "@id": "https://iptc.org"
+      }
+    ],
+    "http://cv.iptc.org/newscodes/ikos/dateReleased": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2014-11-03T15:27:02+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Indicates a type of scene covered by an item.",
+        "@language": "en-gb"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/010100"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/010200"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/010300"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/010400"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/010500"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/010600"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/010700"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/010800"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/010900"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/011000"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/011100"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/011200"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/011300"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/011400"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/011500"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/011600"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/011700"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/011800"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/011900"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/012000"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/012100"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/012200"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/012300"
+      },
+      {
+        "@id": "http://cv.iptc.org/newscodes/scene/012400"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#note": [
+      {
+        "@value": "Mit Bedacht verwenden.",
+        "@language": "de"
+      },
+      {
+        "@value": "Use it carefully.",
+        "@language": "en-gb"
+      }
+    ],
+    "http://cv.iptc.org/newscodes/ikos/preferredSchemeAlias": [
+      {
+        "@id": "https://json-ld.org/playground/scn"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Szenerie",
+        "@language": "de"
+      },
+      {
+        "@value": "Scene",
+        "@language": "en-gb"
+      }
+    ],
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "@id": "http://cv.iptc.org/newscodes/scene/"
+  }
+]

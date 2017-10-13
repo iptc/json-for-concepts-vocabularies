@@ -4,6 +4,7 @@
 	Author: Michael Steidl, IPTC
 	Version:
 	v1 2015-12-14, draft version 1 (incomplete: in scheme part notes are missing, in concept part some relationship properties are missing)
+	v2 2017-10-13, draft version 2 
 
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:nar="http://iptc.org/std/nar/2006-10-01/">
@@ -30,6 +31,8 @@
 </xsl:text>
 		<xsl:text>"prefAlias" : "</xsl:text><xsl:value-of select="./@preferredalias"/><xsl:text>", &#x0D;&#x0A;</xsl:text>
 		<xsl:text>"authority" : "</xsl:text><xsl:value-of select="./@authority"/><xsl:text>", &#x0D;&#x0A;</xsl:text>
+		<xsl:text>"copyrightHolder" : "https://iptc.org",&#x0D;&#x0A;</xsl:text>
+		<xsl:text>"dateReleased" : "</xsl:text><xsl:value-of select="../nar:itemMeta/nar:versionCreated"/><xsl:text>", &#x0D;&#x0A;</xsl:text>
 		<xsl:text>"prefLabel" : {&#x0D;&#x0A;</xsl:text>
 		<xsl:for-each select="nar:name">
 			<xsl:if test="position()!=1"><xsl:text>,&#x0D;&#x0A;</xsl:text></xsl:if>
@@ -38,6 +41,12 @@
 		<xsl:text>},&#x0D;&#x0A;</xsl:text>
 		<xsl:text>"definition" : {&#x0D;&#x0A;</xsl:text>
 		<xsl:for-each select="nar:definition">
+			<xsl:if test="position()!=1"><xsl:text>,&#x0D;&#x0A;</xsl:text></xsl:if>
+			<xsl:text>"</xsl:text><xsl:value-of select="./@xml:lang"/><xsl:text>" : "</xsl:text><xsl:call-template name="normalizeText"><xsl:with-param name="txt" select="."/></xsl:call-template><xsl:text>"</xsl:text>
+		</xsl:for-each>
+		<xsl:text>},&#x0D;&#x0A;</xsl:text>
+		<xsl:text>"note" : {&#x0D;&#x0A;</xsl:text>
+		<xsl:for-each select="nar:note">
 			<xsl:if test="position()!=1"><xsl:text>,&#x0D;&#x0A;</xsl:text></xsl:if>
 			<xsl:text>"</xsl:text><xsl:value-of select="./@xml:lang"/><xsl:text>" : "</xsl:text><xsl:call-template name="normalizeText"><xsl:with-param name="txt" select="."/></xsl:call-template><xsl:text>"</xsl:text>
 		</xsl:for-each>
@@ -68,7 +77,6 @@
 			<xsl:if test="//nar:schemeMeta/nar:related[@rel='skos:hasTopConcept' and @qcode=nar:conceptId/@qcode]">
 				<xsl:text>"topConceptOf" : "</xsl:text><xsl:value-of select="$schemeUri"/><xsl:text>", &#x0D;&#x0A;</xsl:text>	
 			</xsl:if>
-			<xsl:text>"created" : "</xsl:text><xsl:value-of select="nar:conceptId/@created"/><xsl:text>", &#x0D;&#x0A;</xsl:text>	
 			<xsl:if test="./@modified">
 				<xsl:text>"modified" : "</xsl:text><xsl:value-of select="./@modified"/><xsl:text>", &#x0D;&#x0A;</xsl:text>	
 			</xsl:if>
@@ -81,20 +89,45 @@
 				<xsl:text>"</xsl:text><xsl:value-of select="./@xml:lang"/><xsl:text>" : "</xsl:text><xsl:call-template name="normalizeText"><xsl:with-param name="txt" select="."/></xsl:call-template><xsl:text>"</xsl:text>
 			</xsl:for-each>
 			<xsl:text>},&#x0D;&#x0A;</xsl:text>
+<!--	Definition  -->
 			<xsl:text>"definition" : {&#x0D;&#x0A;</xsl:text>
 			<xsl:for-each select="nar:definition">
 				<xsl:if test="position()!=1"><xsl:text>,&#x0D;&#x0A;</xsl:text></xsl:if>
 				<xsl:text>"</xsl:text><xsl:value-of select="./@xml:lang"/><xsl:text>" : "</xsl:text><xsl:call-template name="normalizeText"><xsl:with-param name="txt" select="."/></xsl:call-template><xsl:text>"</xsl:text>
 			</xsl:for-each>
-			<xsl:text>}</xsl:text>
+			<xsl:text>},&#x0D;&#x0A;</xsl:text>
+<!--	generic Note  -->
+			<xsl:text>"note" : {&#x0D;&#x0A;</xsl:text>
+			<xsl:for-each select="nar:note[count(@role)= 0]">
+				<xsl:if test="position()!=1"><xsl:text>,&#x0D;&#x0A;</xsl:text></xsl:if>
+				<xsl:text>"</xsl:text><xsl:value-of select="./@xml:lang"/><xsl:text>" : "</xsl:text><xsl:call-template name="normalizeText"><xsl:with-param name="txt" select="."/></xsl:call-template><xsl:text>"</xsl:text>
+			</xsl:for-each>
+			<xsl:text>},&#x0D;&#x0A;</xsl:text>
+<!--	Change Note  -->
+			<xsl:text>"changeNote" : {&#x0D;&#x0A;</xsl:text>
+			<xsl:for-each select="nar:note[@role='skos:changeNote']">
+				<xsl:if test="position()!=1"><xsl:text>,&#x0D;&#x0A;</xsl:text></xsl:if>
+				<xsl:text>"</xsl:text><xsl:value-of select="./@xml:lang"/><xsl:text>" : "</xsl:text><xsl:call-template name="normalizeText"><xsl:with-param name="txt" select="."/></xsl:call-template><xsl:text>"</xsl:text>
+			</xsl:for-each>
+			<xsl:text>},&#x0D;&#x0A;</xsl:text>
+<!--	Editorial Note  -->
+			<xsl:text>"editorialNote" : {&#x0D;&#x0A;</xsl:text>
+			<xsl:for-each select="nar:note[@role='skos:editorialNote']">
+				<xsl:if test="position()!=1"><xsl:text>,&#x0D;&#x0A;</xsl:text></xsl:if>
+				<xsl:text>"</xsl:text><xsl:value-of select="./@xml:lang"/><xsl:text>" : "</xsl:text><xsl:call-template name="normalizeText"><xsl:with-param name="txt" select="."/></xsl:call-template><xsl:text>"</xsl:text>
+			</xsl:for-each>
+			<xsl:text>},&#x0D;&#x0A;</xsl:text>
+<!--	broader NewsML-G2 -->
 			<xsl:if test="count(nar:broader) &gt; 0">
 				<xsl:text>,&#x0D;&#x0A;"broader" : [&#x0D;&#x0A;</xsl:text>	
 				<xsl:for-each select="nar:broader">
 					<xsl:if test="position()!=1"><xsl:text>, </xsl:text></xsl:if>
 					<xsl:text>"</xsl:text><xsl:value-of select="$schemeUri"/><xsl:value-of select="substring-after(@qcode, ':')"/><xsl:text>"</xsl:text>			
 				</xsl:for-each>
-				<xsl:text>&#x0D;&#x0A;]&#x0D;&#x0A;</xsl:text>
+				<xsl:text>&#x0D;&#x0A;],&#x0D;&#x0A;</xsl:text>
 			</xsl:if>
+<!--			Created - put at the end as it is mandatory - and the last property of an object must not have a comma   -->
+			<xsl:text>"created" : "</xsl:text><xsl:value-of select="nar:conceptId/@created"/><xsl:text>"&#x0D;&#x0A;</xsl:text>	
 			<xsl:text>}</xsl:text>
 <!--		End of data for a Concept  -->
 		</xsl:for-each>

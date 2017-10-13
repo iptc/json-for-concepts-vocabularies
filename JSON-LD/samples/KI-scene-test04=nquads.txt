@@ -1,0 +1,232 @@
+<http://cv.iptc.org/newscodes/scene/010100> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010100> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010100> <http://www.w3.org/2004/02/skos/core#changeNote> "Beschreibung aktualisiert"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010100> <http://www.w3.org/2004/02/skos/core#changeNote> "Definition updated"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010100> <http://www.w3.org/2004/02/skos/core#definition> "A head only view of a person (or animal/s) or persons as in a montage. "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010100> <http://www.w3.org/2004/02/skos/core#definition> "Ansicht nur des Kopfes einer oder mehrerer Personen oder von einem oder mehreren Tieren."@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010100> <http://www.w3.org/2004/02/skos/core#editorialNote> "Dann verwenden, wenn der Kopf das wesentliche Objekt im Foto ist"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010100> <http://www.w3.org/2004/02/skos/core#editorialNote> "Use it only if the head is the major object of the photo"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010100> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010100> <http://www.w3.org/2004/02/skos/core#note> "Anmerkung zum Portrait: abcde"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010100> <http://www.w3.org/2004/02/skos/core#note> "Note on the headshot: abcde"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010100> <http://www.w3.org/2004/02/skos/core#prefLabel> "Portrait"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010100> <http://www.w3.org/2004/02/skos/core#prefLabel> "headshot"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010200> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010200> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010200> <http://www.w3.org/2004/02/skos/core#definition> "A torso and head view of a person or persons. "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010200> <http://www.w3.org/2004/02/skos/core#definition> "Ansicht des Oberkörpers einer oder mehrerer Personen"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010200> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010200> <http://www.w3.org/2004/02/skos/core#prefLabel> "Halbfigur"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010200> <http://www.w3.org/2004/02/skos/core#prefLabel> "half-length"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010300> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010300> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010300> <http://www.w3.org/2004/02/skos/core#definition> "A view from head to toe of a person or persons "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010300> <http://www.w3.org/2004/02/skos/core#definition> "Ansicht der vollständigen Figur einer oder mehrerer Personen"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010300> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010300> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ganzfigur"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010300> <http://www.w3.org/2004/02/skos/core#prefLabel> "full-length"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010400> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010400> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010400> <http://www.w3.org/2004/02/skos/core#definition> "A view of a person from the side "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010400> <http://www.w3.org/2004/02/skos/core#definition> "Ansicht einer oder mehrerer Personen von der Seite"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010400> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010400> <http://www.w3.org/2004/02/skos/core#prefLabel> "Profilansicht"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010400> <http://www.w3.org/2004/02/skos/core#prefLabel> "profile"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010500> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010500> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010500> <http://www.w3.org/2004/02/skos/core#definition> "A view of a person or persons from the rear. "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010500> <http://www.w3.org/2004/02/skos/core#definition> "Ansicht einer oder mehrerer Personen von hinten"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010500> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010500> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rückansicht"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010500> <http://www.w3.org/2004/02/skos/core#prefLabel> "rear view"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010600> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010600> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010600> <http://www.w3.org/2004/02/skos/core#definition> "A view of only one person, object or animal. "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010600> <http://www.w3.org/2004/02/skos/core#definition> "Ansicht einer einzelnen Person"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010600> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010600> <http://www.w3.org/2004/02/skos/core#prefLabel> "Einzelperson"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010600> <http://www.w3.org/2004/02/skos/core#prefLabel> "single"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010700> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010700> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010700> <http://www.w3.org/2004/02/skos/core#definition> "A view of two people who are in a personal relationship, for example engaged, married or in a romantic partnership. "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010700> <http://www.w3.org/2004/02/skos/core#definition> "Ansicht von zwei Personen zwischen denen eine persönliche Beziehung besteht, z.B. sind sie verlobt, verheiratet oder einer sonstigen Liebesbeziehung"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010700> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010700> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paar"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010700> <http://www.w3.org/2004/02/skos/core#prefLabel> "couple"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010800> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010800> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010800> <http://www.w3.org/2004/02/skos/core#definition> "A view of two people "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010800> <http://www.w3.org/2004/02/skos/core#definition> "Ansicht von zwei Personen"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010800> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010800> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zwei Personen"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010800> <http://www.w3.org/2004/02/skos/core#prefLabel> "two"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010900> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010900> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010900> <http://www.w3.org/2004/02/skos/core#definition> "A view of more than two people "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010900> <http://www.w3.org/2004/02/skos/core#definition> "Ansicht von mehr als zwei Personen"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010900> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010900> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gruppe"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/010900> <http://www.w3.org/2004/02/skos/core#prefLabel> "group"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011000> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011000> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011000> <http://www.w3.org/2004/02/skos/core#definition> "An overall view of the subject and its surrounds "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011000> <http://www.w3.org/2004/02/skos/core#definition> "Ansicht eines Subjekts und von dessen Umgebung"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011000> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011000> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gesamtansicht"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011000> <http://www.w3.org/2004/02/skos/core#prefLabel> "general view"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011100> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011100> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011100> <http://www.w3.org/2004/02/skos/core#definition> "A panoramic or wide angle view of a subject and its surrounds "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011100> <http://www.w3.org/2004/02/skos/core#definition> "Ein Panoramaansicht oder Weitwinkelansicht eines Subjekts und von dessen Umgebung"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011100> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011100> <http://www.w3.org/2004/02/skos/core#prefLabel> "Panorama"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011100> <http://www.w3.org/2004/02/skos/core#prefLabel> "panoramic view"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011200> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011200> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011200> <http://www.w3.org/2004/02/skos/core#definition> "A view taken from above "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011200> <http://www.w3.org/2004/02/skos/core#definition> "Eine Ansicht aus der Höhe"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011200> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011200> <http://www.w3.org/2004/02/skos/core#prefLabel> "Luftbild"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011200> <http://www.w3.org/2004/02/skos/core#prefLabel> "aerial view"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011300> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011300> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011300> <http://www.w3.org/2004/02/skos/core#definition> "A photo taken under water "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011300> <http://www.w3.org/2004/02/skos/core#definition> "Ein unter Wasser aufgenommenes Bild"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011300> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011300> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unter Wasser"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011300> <http://www.w3.org/2004/02/skos/core#prefLabel> "under-water"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011400> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011400> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011400> <http://www.w3.org/2004/02/skos/core#definition> "A photo taken during darkness "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011400> <http://www.w3.org/2004/02/skos/core#definition> "Ein Bild das während der Dunkelheit aufgenommen wurde"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011400> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011400> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nachtaufnahme"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011400> <http://www.w3.org/2004/02/skos/core#prefLabel> "night scene"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011500> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011500> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011500> <http://www.w3.org/2004/02/skos/core#definition> "A photo taken from a satellite in orbit "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011500> <http://www.w3.org/2004/02/skos/core#definition> "Ein Bild das aus einer Satellitenumlaufbahn aufgenommen wurde"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011500> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011500> <http://www.w3.org/2004/02/skos/core#prefLabel> "Satellitenansicht"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011500> <http://www.w3.org/2004/02/skos/core#prefLabel> "satellite"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011600> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011600> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011600> <http://www.w3.org/2004/02/skos/core#definition> "A photo that shows the exterior of a building or other object "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011600> <http://www.w3.org/2004/02/skos/core#definition> "Ein Bild das außerhalb  eines Gebäudes oder ähnlichen Objekts aufgenommen wurde."@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011600> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011600> <http://www.w3.org/2004/02/skos/core#prefLabel> "Außenansicht"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011600> <http://www.w3.org/2004/02/skos/core#prefLabel> "exterior view"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011700> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011700> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011700> <http://www.w3.org/2004/02/skos/core#definition> "A scene or view of the interior of a building or other object "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011700> <http://www.w3.org/2004/02/skos/core#definition> "Ein Bild das innerhalb eines Gebäudes oder ähnlichen Objekts aufgenommen wurde"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011700> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011700> <http://www.w3.org/2004/02/skos/core#prefLabel> "Innenansicht"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011700> <http://www.w3.org/2004/02/skos/core#prefLabel> "interior view"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011800> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011800> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011800> <http://www.w3.org/2004/02/skos/core#definition> "A view of, or part of a person/object taken at close range in order to emphasize detail or accentuate mood. Macro photography. "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011800> <http://www.w3.org/2004/02/skos/core#definition> "Eine Ansicht von einer Person oder einem Objekt das aus nächster Nähe um Details oder Emotionen hervorzustreichen. Auch Makro-Fotografie."@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011800> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011800> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nahaufnahme"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011800> <http://www.w3.org/2004/02/skos/core#prefLabel> "close-up"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011900> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011900> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011900> <http://www.w3.org/2004/02/skos/core#definition> "Subject in motion such as children jumping, horse running "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011900> <http://www.w3.org/2004/02/skos/core#definition> "Subjekt in Bewegung, wie hüpfendes Kind, laufendes Pferd usw."@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011900> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011900> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aktionsaufnahme"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/011900> <http://www.w3.org/2004/02/skos/core#prefLabel> "action"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012000> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012000> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012000> <http://www.w3.org/2004/02/skos/core#definition> "Subject or subjects on a stage performing to an audience "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012000> <http://www.w3.org/2004/02/skos/core#definition> "Subjekt(e) auf einer Bühne, während sie vor Publikum auftreten"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012000> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012000> <http://www.w3.org/2004/02/skos/core#prefLabel> "Beim Auftritt"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012000> <http://www.w3.org/2004/02/skos/core#prefLabel> "performing"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012100> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012100> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012100> <http://www.w3.org/2004/02/skos/core#definition> "Subject or subjects posing such as a *victory* pose or other stance that symbolizes leadership. "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012100> <http://www.w3.org/2004/02/skos/core#definition> "Subjekt(e) die eine besondere Körperposition einnehmen, wie ein *Victory*-Zeichen"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012100> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012100> <http://www.w3.org/2004/02/skos/core#prefLabel> "Posieren"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012100> <http://www.w3.org/2004/02/skos/core#prefLabel> "posing"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012200> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012200> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012200> <http://www.w3.org/2004/02/skos/core#definition> "A posed picture symbolizing an event - two rings for marriage "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012200> <http://www.w3.org/2004/02/skos/core#definition> "Ein gestaltetes Bild das ein Ereignis symbolisiert, wie zwei Ringe für die Ehe"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012200> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012200> <http://www.w3.org/2004/02/skos/core#prefLabel> "Symbol"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012200> <http://www.w3.org/2004/02/skos/core#prefLabel> "symbolic"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012300> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012300> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012300> <http://www.w3.org/2004/02/skos/core#definition> "An attractive, perhaps fun picture of everyday events - dog with sunglasses, people cooling off in the fountain "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012300> <http://www.w3.org/2004/02/skos/core#definition> "Ein attraktives, vielleicht auch lustiges Bild aus dem Alltag - Hund mit Sonnenbrille, Leute die in einem Brunnen baden"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012300> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012300> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ausgefallenes"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012300> <http://www.w3.org/2004/02/skos/core#prefLabel> "off-beat"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012400> <http://cv.iptc.org/newscodes/ikos/created> "2008-01-01T01:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012400> <http://cv.iptc.org/newscodes/ikos/modified> "2010-12-15T22:14:09+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012400> <http://www.w3.org/2004/02/skos/core#definition> "Bilder wie während der Aufnahmen zu einem Film oder einer Fernsehproduktion gemacht wurden"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012400> <http://www.w3.org/2004/02/skos/core#definition> "Photos taken during the shooting of a movie or TV production. "@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012400> <http://www.w3.org/2004/02/skos/core#inScheme> <http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012400> <http://www.w3.org/2004/02/skos/core#prefLabel> "Filmszene"@de <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/012400> <http://www.w3.org/2004/02/skos/core#prefLabel> "movie scene"@en-gb <http://cv.iptc.org/newscodes/scene/> .
+<http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/ikos/authority> <http://www.iptc.org> .
+<http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/ikos/dateReleased> "2014-11-03T15:27:02+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cv.iptc.org/newscodes/scene/> <http://cv.iptc.org/newscodes/ikos/preferredSchemeAlias> <https://json-ld.org/playground/scn> .
+<http://cv.iptc.org/newscodes/scene/> <http://purl.org/dc/terms/copyrightHolder> <https://iptc.org> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#definition> "Indicates a type of scene covered by an item."@en-gb .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/010100> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/010200> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/010300> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/010400> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/010500> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/010600> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/010700> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/010800> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/010900> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/011000> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/011100> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/011200> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/011300> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/011400> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/011500> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/011600> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/011700> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/011800> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/011900> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/012000> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/012100> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/012200> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/012300> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://cv.iptc.org/newscodes/scene/012400> .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#note> "Mit Bedacht verwenden."@de .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#note> "Use it carefully."@en-gb .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scene"@en-gb .
+<http://cv.iptc.org/newscodes/scene/> <http://www.w3.org/2004/02/skos/core#prefLabel> "Szenerie"@de .

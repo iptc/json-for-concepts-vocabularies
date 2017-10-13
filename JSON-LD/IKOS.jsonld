@@ -1,0 +1,40 @@
+{
+ "@context": {
+    "ikos":    "http://cv.iptc.org/newscodes/ikos/",
+    "skos":    "http://www.w3.org/2004/02/skos/core#",
+    "dct":     "http://purl.org/dc/terms/",
+    "xsd":     "http://www.w3.org/2001/XMLSchema#",
+
+    "uri":     "@id",
+    "type":    "@type",
+    "conceptSet": "@graph",
+
+    "authority":        {"@type": "@id", "@id": "ikos:authority"},
+    "availLang":        {"@id": "ikos:availLang", "@container": "@list"},
+    "broader":          {"@type": "@id", "@id": "skos:broader"},
+    "broadMatch":       {"@type": "@id", "@id": "skos:broadMatch"},
+    "changeNote":       {"@id": "skos:changeNote", "@container": "@language"},
+    "closeMatch":       {"@type": "@id", "@id": "skos:closeMatch"},
+    "copyrightHolder":  {"@type": "@id", "@id": "dct:copyrightHolder"},
+    "created":          {"@type": "xsd:dateTime", "@id": "ikos:created"},
+    "dateReleased":     {"@type": "xsd:dateTime", "@id": "ikos:dateReleased"},
+    "definition":       {"@id": "skos:definition", "@container": "@language"},
+    "editorialNote":    {"@id": "skos:editorialNote", "@container": "@language"},
+    "exactMatch":       {"@type": "@id", "@id": "skos:exactMatch"},
+    "hasFacet":         {"@type": "@id", "@id": "ikos:hasFacet"},
+    "hasObject":        {"@type": "@id", "@id": "skos:hasObject"},
+    "hasTopConcept":    {"@type": "@id", "@id": "skos:hasTopConcept"},
+    "inScheme":         {"@type": "@id", "@id": "skos:inScheme"},
+    "isFacetOf":        {"@type": "@id", "@id": "ikos:isFacetOf"},
+    "isObjectOf":       {"@type": "@id", "@id": "skos:isObjectOf"},
+    "licenceLink":      {"@type": "@id", "@id": "ikos:licenceLink"},
+    "modified":         {"@type": "xsd:dateTime", "@id": "ikos:modified"},
+    "narrower":         {"@type": "@id", "@id": "skos:narrower"},
+    "note":             {"@id": "skos:note", "@container": "@language"},
+    "prefAlias":        {"@type": "@id", "@id": "ikos:preferredSchemeAlias"},
+    "prefLabel":        {"@id": "skos:prefLabel", "@container": "@language"},
+    "related":          {"@type": "@id", "@id": "skos:related"},
+    "retired":          {"@type": "xsd:dateTime", "@id": "ikos:retired"},
+    "topConceptOf":     {"@type": "@id", "@id": "skos:topConceptOf"}
+  }
+}
