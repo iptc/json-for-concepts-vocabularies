@@ -10,5 +10,5 @@ IKOS provides a consistent framework for CV management across different data for
 
 This repository includes:
 
-- JSON-scheme: how to express CVs by a native JSON, the properties are controlled by a JSON Schema. It provides the Schema and an example.
+- JSON-schema: how to express CVs by a native JSON, the properties are controlled by a JSON Schema. It provides the Schema and an example.
 - JSON-LD: how to express CVs by JSON-LD. It provides a @context document and an example.
