@@ -19,4 +19,4 @@ For that reason IPTC has taken a few basic decisions:
 For the IKOS native JSON format two JSON Schemas are available (for both are PDFs as documentation available):
 
 - IKOS-concept-schema-0.2.json as Schema of a Concepts
-- IKOS-scheme-schema-0.2.json as Schema of the Concept Scheme (equivalant to Knowledge Item)
+- IKOS-scheme-schema-0.2.json as Schema of the Concept Scheme (equivalant to a Knowledge Item)
