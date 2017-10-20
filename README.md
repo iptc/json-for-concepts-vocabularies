@@ -1,12 +1,13 @@
-# IKOS Development
-About development regarding the IPTC Knowledge Organisation System - IKOS
+# JSON for Concepts and Vocabularies - using SKOS and IKOS
 
-IPTC maintains many Controlled Vocabularies (CV) for
-- categorization of news
+IPTC maintains many Controlled Vocabularies (CV) - the [NewsCodes](https://iptc.org/standards/newscodes/) - for
+- the categorization of news and sports data
 - administrative purposes like registration of news providers
 - support of news formats like NewsML-G2, SportsML-G2, EventsML-G2, NewsML 1
 
-IKOS provides a consistent framework for CV management across different data formats.
+The JSON expression of Concepts and CVs is based on:
+- SKOS - the W3C [Simple Knowledge Organisation System](https://www.w3.org/TR/skos-reference/)
+- IKOS - the [IPTC Knowledge Organisation System](http://dev.iptc.org/IKOS)
 
 This repository includes:
 

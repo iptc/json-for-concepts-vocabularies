@@ -1,4 +1,3 @@
-# IKOS as JSON-LD
+# JSON-LD using W3C SKOS and IKOS
 
-The native JSON format - under control of a JSON Schema - can be reused for a JSON-LD graph: the @context object of the IKOS.jsonld file must be integrated into the native JSON object.
-This makes a valid JSON-LD document - see the samples folder. 
+The IPTC Concepts and Controlled Vocabularies can be expressed by using the W3C SKOS and IKOS as JSON-LD graph: the @context object of the IKOS.jsonld file must be integrated into a native JSON object (see the /JSON-schema folder). This small action makes a valid JSON-LD document out of it - see the samples sub-folder. 

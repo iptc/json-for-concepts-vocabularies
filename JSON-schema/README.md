@@ -1,4 +1,4 @@
-#IKOS JSON - IPTC format for Concepts and Schemes
+#IKOS' native JSON - IPTC format for Concepts and Schemes
 
 ## Introduction
 Concepts and schemes of concepts are key building blocks for knowledge mangement and there is a common need for data models and formats to do this properly.
